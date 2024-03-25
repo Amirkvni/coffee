@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Dana";
+    src: local("Dana"), url(../public/fonts/dana-regular.woff) format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana Medium";
+    src: local("Dana"), url(../public/fonts/dana-medium.woff) format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana DemiBold";
+    src: local("Dana"), url(../public/fonts/dana-demibold.woff) format("woff");
+    font-display: swap;
+  }
+}
+
